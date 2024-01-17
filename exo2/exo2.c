@@ -69,7 +69,7 @@ void fillArrayWithRandomValues(float *array, int length)
 {
     // Put random value (interval [-5, 5])
     for (int i = 0; i < length; i++)
-        array[i] = 10.0f * ((float)(rand() / RAND_MAX) - 0.5f);
+        array[i] = 10.0f * ((float)rand() / RAND_MAX - 0.5f);
 }
 
 void testSum(float *array, int length)
