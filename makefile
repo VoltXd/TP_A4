@@ -1,5 +1,5 @@
 CXX = gcc
-CFLAGS = -Wall -fopenmp -O3 -save-temps
+CFLAGS = -Wall -fopenmp -O3
 LDLIBS=-lm
 
 OBJ= $(SRC:.c=.o)
@@ -9,4 +9,4 @@ fichier:
 	$(CXX) $(CFLAGS) fichier.c -o fichier
 
 clean: 
-	rm $(BIN) *.o *.i *.s 
+	rm -rf *.o *.i *.s 

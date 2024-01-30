@@ -1,8 +1,12 @@
 import csv
 import matplotlib.pyplot as plt
+import numpy as np
 
 sizes = [1000, 100000, 10000000, 100000000]
-tt1_para = [[None] * 4]*15
+tt1_seq = np.zeros((15, 4))
+tt1_para = np.zeros((15, 4))
+tt2_seq = np.zeros((15, 4))
+tt2_para = np.zeros((15, 4))
 rows = []
 
 
@@ -15,15 +19,30 @@ with open('result.csv') as csv_file:
     
     j = 0
     for i in range(1, line_count, 2):
-        val = float(rows[i][3])
-        tt1_para[int(rows[i][1]) - 2][j] = (val)
+        tt1_seq[int(rows[i][1]) - 2][j] = float(rows[i][2])
+        tt1_para[int(rows[i][1]) - 2][j] = float(rows[i][3])
+        tt2_seq[int(rows[i][1]) - 2][j] = float(rows[i][4])
+        tt2_para[int(rows[i][1]) - 2][j] = float(rows[i][5])
         if int(rows[i][1]) - 2 == 14:
             j += 1
 
-print(tt1_para)
-plt.plot(sizes, tt1_para[0])
-plt.plot(sizes, tt1_para[1])
-plt.plot(sizes, tt1_para[2])
-plt.plot(sizes, tt1_para[3])
+plt.plot(sizes, tt1_seq[0], marker="*", label=f"seq")
+for i in range(15):
+    if i + 2 <= 8:
+        plt.plot(sizes, tt1_para[i], marker="o", label=f"para:{i+2}")
+    else:
+        plt.plot(sizes, tt1_para[i], linestyle=":", marker="+", label=f"para:{i+2}")
+plt.legend()
 plt.xscale("log")
+plt.yscale("log")
+plt.show()
+plt.plot(sizes, tt2_seq[0], marker="*", label=f"seq")
+for i in range(15):
+    if i + 2 <= 8:
+        plt.plot(sizes, tt2_para[i], marker="o", label=f"para:{i+2}")
+    else:
+        plt.plot(sizes, tt2_para[i], linestyle=":", marker="+", label=f"para:{i+2}")
+plt.legend()
+plt.xscale("log")
+plt.yscale("log")
 plt.show()

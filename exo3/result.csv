@@ -1,730 +1,120 @@
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;2;0.000194;0.081334;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;3;0.000126;0.151300;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;4;0.000153;0.184168;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;5;0.000133;0.180270;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;6;0.000067;0.210691;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;7;0.000155;4.015441;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;8;0.000116;8.448249;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;9;0.000125;0.542891;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;10;0.000142;0.671035;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;11;0.000116;0.449198;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;12;0.000126;0.465973;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;13;0.000056;0.962747;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;14;0.000125;1.866022;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;15;0.000470;1.182185;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-1000;16;0.000831;1.664067;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;2;0.000122;0.135342;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;3;0.000413;0.217126;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;4;0.000146;0.224668;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;5;0.000595;0.249539;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;6;0.000129;0.199487;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;7;0.001586;2.558604;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;8;0.000126;2.577932;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;9;0.000126;0.973108;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;10;0.000142;0.736810;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;11;0.000144;0.512729;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;12;0.000131;0.731530;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;13;0.000119;0.807257;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;14;0.000095;1.185797;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;15;0.000135;0.878645;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000;16;0.000138;2.074056;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;2;0.000222;6.361800;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;3;0.000315;4.328662;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;4;0.000222;3.342520;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;5;0.000329;11.477121;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;6;0.000296;9.339017;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;7;0.000227;13.873864;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;8;0.000681;13.331133;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;9;0.000240;3.617742;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;10;0.000251;4.533635;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;11;0.000253;4.146645;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;12;0.000238;2.863861;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;13;0.003681;5.127962;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;14;0.000350;3.388924;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;15;0.000301;3.455767;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-10000000;16;0.000228;3.824916;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;2;0.000319;60.967906;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;3;0.000259;60.324763;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;4;0.000251;43.267730;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;5;0.000294;58.302453;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;6;0.000349;56.892156;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;7;0.001650;34.530539;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;8;0.000573;40.469076;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;9;0.000224;31.326020;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;10;0.000237;28.389491;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;11;0.000296;30.336337;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;12;0.000574;22.767944;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;13;0.003715;34.578856;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;14;0.000365;31.682350;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;15;0.000241;50.841523;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]
-100000000;16;0.000224;30.721164;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;2;0.000147;0.189662;0.142999
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;3;0.000497;0.389753;0.515349
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;4;0.000625;0.574239;0.020114
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;5;0.000169;0.235816;0.015229
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;6;0.000142;0.218806;0.011598
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;7;0.000141;6.931116;0.015627
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;8;0.000125;5.344595;1.340128
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;9;0.001265;0.860833;0.348847
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;10;0.000133;0.573528;0.285178
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;11;0.000128;0.660224;0.305432
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;12;0.000149;0.676141;0.312955
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;13;0.000144;0.731706;0.199844
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;14;0.000084;0.796872;0.407884
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;15;0.000067;1.049275;0.460626
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;16;0.000138;1.903867;0.404137
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;2;0.000159;0.143399;0.700285
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;3;0.000131;0.181395;0.765524
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;4;0.000283;0.280126;0.740518
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;5;0.000190;0.188845;0.583527
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;6;0.000143;0.284072;0.673590
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;7;0.000165;3.945878;1.392580
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;8;0.000153;0.487797;0.494205
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;9;0.000092;0.546593;0.513241
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;10;0.000131;0.546990;0.511687
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;11;0.000178;0.926962;0.622816
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;12;0.000554;0.633683;0.588055
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;13;0.000075;0.713169;0.515520
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;14;0.000541;1.400212;0.787515
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;15;0.000128;0.794298;0.528849
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;16;0.000129;0.817940;0.673031
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;2;0.000287;8.440095;65.712382
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;3;0.000262;8.794752;51.873630
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;4;0.000236;3.376581;62.871214
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;5;0.000379;10.944051;53.140667
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;6;0.000350;13.695416;55.990423
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;7;0.000315;6.214816;53.318166
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;8;0.000303;21.119775;48.376998
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;9;0.000328;3.797386;54.759613
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;10;0.000269;3.277995;50.019871
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;11;0.000657;4.313711;49.681664
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;12;0.000284;2.920816;51.272205
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;13;0.000280;3.703845;53.315936
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;14;0.000333;4.521509;51.993492
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;15;0.000266;5.170004;49.508404
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;16;0.000325;3.921684;46.172074
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;2;0.000779;62.784024;347.343343
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;3;0.000395;65.063441;535.821581
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;4;0.000226;44.030148;540.036920
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;5;0.004195;55.009112;546.263251
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;6;0.000254;34.519395;529.619469
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;7;0.000297;31.638439;485.290450
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;8;0.000566;39.367636;488.078295
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;9;0.000255;27.863243;484.157195
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;10;0.000243;32.269855;489.176520
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;11;0.000234;35.328893;486.699914
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;12;0.000226;31.954826;525.899979
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;13;0.000421;28.608810;499.263638
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;14;0.000225;32.601893;508.877278
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;15;0.000314;27.733689;495.269291
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;16;0.000259;35.970109;484.622859
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;2;0.000124;0.063379;0.001370
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;3;0.000149;0.230280;0.002919
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;4;0.000136;0.189139;0.002094
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;5;0.000120;0.258620;0.002089
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;6;0.000185;11.717057;3.245890
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;7;0.000123;3.899284;0.178294
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;8;0.000070;9.336013;2.504814
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;9;0.000537;0.501518;0.251747
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;10;0.000148;0.555866;0.186916
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;11;0.000126;0.579485;0.348553
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;12;0.000254;0.623508;0.364224
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;13;0.000131;0.735497;0.485138
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;14;0.000116;0.598371;0.461100
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;15;0.000118;0.798077;0.385790
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;16;0.000131;0.740530;0.443458
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;2;0.000140;0.150594;0.060601
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;3;0.000133;0.144062;0.040858
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;4;0.000064;0.216953;0.036925
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;5;0.000135;0.238514;0.029018
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;6;0.000176;0.610136;0.027137
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;7;0.000143;1.922369;0.041854
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;8;0.000550;0.565349;0.042893
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;9;0.000262;1.191738;0.711329
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;10;0.000216;1.378522;0.779972
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;11;0.000128;0.715804;0.326360
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;12;0.000121;0.711264;0.213638
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;13;0.000127;0.766399;0.192930
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;14;0.000161;0.729765;0.252902
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;15;0.000067;1.484997;0.426446
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;16;0.000143;0.860372;0.231586
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;2;0.000324;6.223145;6.421758
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;3;0.000384;14.268644;4.960091
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;4;0.000347;3.501484;3.462120
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;5;0.000308;13.848842;3.969103
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;6;0.000271;2.382083;2.867062
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;7;0.000251;17.866417;5.899083
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;8;0.000587;9.377898;2.822017
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;9;0.000270;4.653647;7.074988
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;10;0.000425;8.562314;6.921492
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;11;0.000283;2.974458;4.241801
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;12;0.000222;3.598882;6.625186
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;13;0.000218;3.523160;5.463725
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;14;0.000331;3.396225;7.672902
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;15;0.000265;3.265062;6.681854
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;16;0.000279;3.818372;8.133916
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;2;0.000308;67.918340;70.313975
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;3;0.000233;51.276033;45.196824
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;4;0.000334;41.493624;47.183206
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;5;0.000248;57.334457;29.034571
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;6;0.000257;26.982387;26.504179
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;7;0.000356;25.767696;35.376170
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;8;0.000250;28.367908;26.405611
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;9;0.000238;33.943683;67.667946
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;10;0.000332;26.869338;61.175263
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;11;0.000246;24.231148;42.012661
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;12;0.000247;25.916814;79.232348
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;13;0.000230;44.762559;82.117215
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;14;0.000254;31.516462;75.029435
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;15;0.000247;31.840222;82.694500
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;16;0.000580;25.469016;78.747865
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;2;0.000138;0.153538;0.002609
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;3;0.000225;0.323028;0.004030
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;4;0.000225;0.236130;0.003622
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;5;0.000127;0.196211;0.002523
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;6;0.000140;0.255401;0.003008
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;7;0.000145;3.861056;0.003593
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;8;0.000126;9.675947;1.713719
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;9;0.000132;0.571425;0.142113
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;10;0.000128;0.620284;0.318071
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;11;0.000124;0.588398;0.292664
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;12;0.000120;0.801007;0.179579
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;13;0.000128;0.576585;0.331073
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;14;0.000365;0.739844;0.483159
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;15;0.000126;0.766674;0.212937
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;16;0.000131;0.800043;0.438906
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;2;0.000135;0.155186;0.064261
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;3;0.000142;0.172846;0.041709
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;4;0.000130;0.254063;0.033652
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;5;0.000128;0.271709;0.028963
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;6;0.000128;0.316815;0.031780
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;7;0.000209;0.450695;0.096109
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;8;0.000552;0.592150;0.050295
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;9;0.000272;1.777800;0.714946
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;10;0.000202;1.576037;0.996110
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;11;0.000238;1.466470;0.751571
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;12;0.000206;1.588471;0.571917
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;13;0.000210;1.970759;1.002213
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;14;0.000221;1.841896;0.867035
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;15;0.000152;1.704112;1.069910
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;16;0.000975;3.005499;1.053492
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;2;0.002313;6.580682;6.514969
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;3;0.000261;4.142583;4.455844
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;4;0.000317;3.390092;3.880621
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;5;0.000459;23.258054;4.182076
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;6;0.000326;15.428408;6.243980
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;7;0.000339;10.114636;7.245154
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;8;0.000262;25.915474;15.366944
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;9;0.000227;3.314580;3.969164
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;10;0.000291;5.967688;6.747422
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;11;0.000297;5.812626;6.760891
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;12;0.000349;3.783502;3.954048
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;13;0.000297;4.571838;5.862376
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;14;0.000383;4.321493;5.798642
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;15;0.000251;3.475225;5.712071
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;16;0.000238;4.043344;6.176310
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;2;0.000357;75.276873;70.604992
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;3;0.000234;54.355682;48.421933
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;4;0.000243;34.950595;42.287392
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;5;0.000284;53.733609;37.749828
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;6;0.000236;42.182426;34.353840
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;7;0.000356;44.659670;57.386643
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;8;0.000221;38.182782;41.522343
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;9;0.000309;28.254586;39.887842
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;10;0.000312;32.844114;42.078592
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;11;0.000265;35.032953;66.062518
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;12;0.000326;30.846181;52.150672
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;13;0.000283;35.068313;40.632437
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;14;0.000242;43.724609;63.388023
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;15;0.000313;31.125337;58.646999
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000000;16;0.000241;25.064146;61.560504
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;2;0.000234;0.182576;0.157670
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;3;0.000172;0.245460;0.004395
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;4;0.000138;0.563618;0.005379
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;5;0.000158;0.255590;0.003618
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;6;0.000159;0.353400;0.003645
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;7;0.000177;12.036038;5.937966
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;8;0.000131;0.908296;0.003469
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;9;0.000136;0.508561;0.231611
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;10;0.000171;0.691320;0.325834
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;11;0.000118;1.328866;0.155318
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;12;0.000072;0.700618;0.370826
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;13;0.000126;1.859552;0.342097
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;14;0.000137;1.041305;0.243465
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;15;0.000137;1.206355;0.435527
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-1000;16;0.000129;0.992823;0.512266
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;2;0.000133;0.156619;0.062511
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;3;0.000168;0.362222;0.045687
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;4;0.000119;0.191387;0.032728
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;5;0.000151;0.218975;0.047228
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;6;0.000199;0.304355;0.049890
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;7;0.000151;7.814128;0.035373
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;8;0.000315;8.967781;1.201306
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;9;0.001071;1.684868;0.752222
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;10;0.000209;1.424998;0.877855
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;11;0.000402;1.598397;0.956936
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;12;0.000119;0.664249;0.366650
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;13;0.000128;0.834685;0.246389
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;14;0.000133;0.769584;0.185071
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;15;0.001456;0.940024;0.261392
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-100000;16;0.000132;0.988799;0.251177
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;2;0.000218;6.185205;6.097088
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;3;0.000602;4.260039;4.213586
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;4;0.000395;6.758675;7.838514
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms];
-10000000;5;0.000239;6.680201;2.954427
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;2;0.001220;0.154668;0.042449
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;3;0.001487;0.146228;0.056317
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;4;0.001539;1.039090;0.060403
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;5;0.001497;8.755578;0.090447
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;6;0.001258;8.982732;0.130007
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;7;0.001297;1.962307;0.125625
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;8;0.001263;8.609692;0.162804
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;9;0.001254;0.536814;0.375614
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;10;0.001221;0.505263;0.259861
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;11;0.001227;0.549770;0.284740
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;12;0.001561;0.536068;0.302393
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;13;0.001248;0.647352;0.335275
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;14;0.001379;0.912896;0.380992
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;15;0.001232;0.744484;0.396498
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;16;0.001349;0.771210;0.552785
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;2;0.118132;0.131571;1.732078
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;3;0.117972;0.176109;5.958834
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;4;0.241643;0.925077;6.610982
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;5;0.122089;0.204801;8.213398
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;6;0.436779;0.330675;9.982648
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;7;0.144689;0.249383;15.028979
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;8;0.178787;1.973838;14.800383
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;9;0.121540;0.659585;20.838760
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;10;0.154291;0.853794;17.976237
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;11;0.121541;0.599900;19.292136
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;12;0.130994;0.809504;13.468615
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;13;0.118024;0.726301;16.520166
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;14;0.133730;0.845435;15.880774
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;15;0.118360;0.946274;15.811362
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;16;0.122261;1.061154;18.865391
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;2;17.822054;11.304161;398.863426
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;2;0.003283;0.885722;0.004020;0.045781;0.048510;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;3;0.001977;0.219345;0.003177;0.127772;0.101860;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;4;0.001984;0.325573;0.002793;0.120429;0.096865;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;5;0.002081;0.484062;0.003962;0.121793;0.127072;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;6;0.001738;0.537802;0.003556;0.127736;0.127506;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;7;0.001887;10.321851;3.190727;0.105017;0.110846;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;8;0.001226;0.769248;0.002599;0.092295;0.112588;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;9;0.001229;0.579171;0.243917;0.221366;0.286064;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;10;0.001221;0.730991;0.239760;0.308063;0.224609;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;11;0.001221;1.005649;0.431241;0.398155;0.391291;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;12;0.001513;1.590860;0.404522;0.406797;0.369676;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;13;0.001219;0.732539;0.360886;0.374408;0.336998;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;14;0.001326;1.128049;0.217298;0.398642;0.401684;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;15;0.001282;1.135093;0.216053;0.406276;0.401756;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-1000;16;0.001476;1.508695;0.504948;0.478696;0.497187;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;2;0.125597;0.187241;0.081486;5.842388;2.929999;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;3;0.166301;0.142274;0.045692;6.666883;4.550019;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;4;0.122226;0.207055;0.035799;5.642364;7.842435;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;5;0.121693;0.212947;0.029088;7.598848;6.952024;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;6;0.121544;0.210130;0.023153;6.467701;9.067534;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;7;0.167144;0.329933;0.033238;12.144495;15.539999;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;8;0.154271;0.438783;0.023172;11.877108;16.634617;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;9;0.167699;0.716350;0.191575;12.747549;20.641922;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;10;0.191062;0.806206;0.293188;15.809299;23.436634;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;11;0.204872;0.990015;0.601572;17.583302;21.586021;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;12;0.267443;3.443932;0.354185;9.650822;24.351750;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;13;0.148561;0.794005;0.235677;14.201398;22.111460;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;14;0.182335;1.077406;0.310419;14.710794;26.128367;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;15;0.191123;1.184246;0.340424;13.203031;22.380743;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000;16;0.154361;1.269171;0.298640;12.471986;23.053650;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;2;18.604548;6.360795;6.251565;346.478902;242.979238;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;3;12.582339;10.282112;4.621496;551.789159;523.506490;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;4;12.241709;23.977395;14.645390;706.078487;646.792081;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;5;16.657715;10.110398;3.642094;731.794114;758.113534;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;6;12.084247;2.472946;2.897886;806.856630;936.284164;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;7;14.317357;12.910267;5.018510;825.713851;1163.770244;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;8;15.382592;17.202133;8.216180;756.641168;1030.898604;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;9;12.863554;5.922005;7.432996;823.488599;1866.338651;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;10;14.009455;5.170971;4.038684;824.071866;1913.478548;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;11;12.113507;5.798798;4.458208;677.937930;1848.536891;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;12;12.214599;7.607275;5.480262;762.790862;1906.042505;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;13;12.061276;3.520200;5.087082;766.151243;1885.813757;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;14;19.776294;5.021605;4.723845;787.620320;1987.986674;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;15;15.956263;3.830914;4.423299;721.040630;1943.438744;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-10000000;16;11.983250;3.707057;5.718058;739.439339;1712.311565;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;2;133.578564;62.015215;63.916779;2296.351919;2499.276714;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;3;122.909707;48.789057;52.268183;4277.226156;5039.000206;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;4;121.633597;46.656826;42.176008;3533.238734;7193.009751;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;5;145.717343;45.784970;39.581288;4304.587971;8437.111097;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;6;136.191265;31.092577;24.661532;4222.214745;11119.830616;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;7;122.010369;29.173347;25.296507;5082.072083;13139.522740;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;8;122.524235;40.272400;23.387896;5008.512099;11157.966592;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;9;122.465489;28.044215;38.189589;4538.819699;23683.883890;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;10;122.761574;31.860052;43.842246;5271.657391;16828.086254;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;11;123.183835;38.511238;59.058902;4018.795746;19755.777125;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;12;128.480131;33.076087;65.536394;4173.295670;17341.095686;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;13;128.674972;23.926396;80.056040;4228.762242;19859.630021;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;14;121.788914;34.366827;66.919367;5103.907795;21329.453537;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;15;122.886323;27.237282;46.153507;4818.942566;22692.857073;
-N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
-100000000;16;127.023839;24.686802;49.008948;4816.926718;23317.807594;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;2;0.000937;0.159996;0.001536;0.042926;0.020547;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;3;0.001021;0.199347;0.001163;0.058997;0.040658;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;4;0.000888;0.184373;0.001520;0.055836;0.048195;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;5;0.002122;0.434924;0.001604;0.074315;0.065550;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;6;0.000889;0.321309;0.001827;0.069227;0.075456;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;7;0.001074;0.447181;0.001899;0.069555;0.085836;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;8;0.000888;0.508973;0.001855;0.075083;0.089314;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;9;0.001019;1.672056;0.468343;0.424279;0.299831;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;10;0.001445;1.536646;0.369117;0.390020;0.343606;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;11;0.000888;1.559106;0.291433;0.349827;0.370315;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;12;0.000886;1.360060;0.528020;0.612830;0.352530;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;13;0.001043;0.999263;0.537332;0.450919;0.275626;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;14;0.000885;1.265688;0.422403;0.356725;0.395256;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;15;0.000882;1.493512;0.463350;0.830163;0.456657;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+1000;16;0.001053;1.371639;0.468560;0.524105;0.779431;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;2;0.215153;0.140941;0.051046;4.409393;2.506025;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;3;0.160211;0.244373;0.041447;6.700003;5.816285;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;4;0.085648;0.227904;0.031412;6.077767;5.448429;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;5;0.142485;0.210568;0.036280;5.261939;5.548509;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;6;0.085424;0.208938;0.021590;6.113682;7.858159;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;7;0.086075;0.208407;0.016673;6.020980;8.520706;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;8;0.085459;0.231400;0.014878;5.480778;8.991918;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;9;0.098215;0.472659;0.226592;6.232366;11.407248;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;10;0.099313;0.477160;0.267064;6.697416;10.218708;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;11;0.097833;0.370972;0.245004;6.050745;11.749439;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;12;0.159260;0.526941;0.284292;7.603595;8.741122;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;13;0.108447;0.701215;0.308092;6.303472;10.845588;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;14;0.098466;0.608963;0.170396;6.203043;12.423262;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;15;0.097863;0.684561;0.170024;6.319574;12.960077;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000;16;0.101937;0.745278;0.229880;6.361715;12.996904;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;2;10.206015;6.710543;6.512464;402.942191;241.580260;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;3;8.854086;5.392900;4.194410;470.006128;397.333044;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;4;11.421894;4.087958;4.240148;586.420026;552.205199;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;5;9.695853;2.852382;2.550432;626.918608;685.144013;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;6;11.431668;2.372785;2.139933;501.229099;807.823645;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;7;11.359548;2.051365;2.797477;556.050687;768.058796;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;8;8.879624;2.101962;2.399846;562.226958;1041.672054;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;9;9.447315;3.541172;4.346857;631.425270;1664.164776;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;10;8.757352;3.139856;5.107691;634.813077;1481.537758;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;11;14.020752;4.681267;4.743017;670.495381;1117.306328;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;12;9.071074;3.583444;4.915205;573.918079;1615.725839;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;13;10.905343;3.358987;4.632339;582.150840;1503.569393;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;14;11.099514;3.276379;4.116664;651.438478;1559.893417;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;15;10.456642;3.437379;3.682800;655.818890;1600.477565;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+10000000;16;9.398415;4.033659;5.330315;659.767534;1417.506213;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;2;161.616134;64.653748;78.159764;2641.841373;2785.184027;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;3;98.822591;36.551480;38.050977;4604.548258;4648.199702;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;4;89.577992;27.661836;28.420681;5505.656621;6454.625385;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;5;96.275323;22.748812;25.721928;5785.702495;7180.656343;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;6;92.668753;19.172915;24.136431;6419.994417;7395.437889;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;7;105.260506;18.032802;40.991006;5983.302048;7875.565014;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;8;92.754180;17.535997;27.679732;5798.636171;8401.655957;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;9;94.193284;25.537532;36.711051;5506.731958;16182.209967;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;10;93.021039;23.911088;40.713840;6008.173972;15472.099280;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;11;94.557149;23.198402;44.623931;6426.744294;16835.583612;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;12;92.463964;21.394743;40.308763;5114.380585;14360.837639;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;13;92.844929;19.874838;40.407361;5122.782953;16749.289305;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;14;94.163030;19.581505;60.616144;5586.201699;15022.217742;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;15;91.588626;18.576020;48.686062;5827.400820;16134.948086;
+N; Num_threads; tsum_seq [ms]; tsum_para [ms]; tsum_para_dyn [ms]; tsum_para_ato [ms]; tsum_para_crit [ms];
+100000000;16;93.038916;18.846239;52.829909;6444.885311;14988.294973;
