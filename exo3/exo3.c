@@ -8,8 +8,8 @@
 #define NUM_THREAD_INDEX 2
 
 int getArgumentValueInt(int index, char* argString);
-void fillArrayWithRandomValues(float* array, int length);
-void testSum(float* array, int length);
+void fillArrayWithRandomValues(int* array, int length);
+void testSum(int* array, int length);
 
 int main(int argc, char* argv[])
 {
@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
     omp_set_num_threads(numberOfThreads);
 
     // Allocate array + put random values
-    float* fArray = (float*)malloc(arrayLength * sizeof(float));
+    int* fArray = (int*)malloc(arrayLength * sizeof(int));
     fillArrayWithRandomValues(fArray, arrayLength);
 
     // Tests
@@ -60,20 +60,20 @@ int getArgumentValueInt(int index, char* argString)
     return value;
 }
 
-void fillArrayWithRandomValues(float *array, int length)
+void fillArrayWithRandomValues(int *array, int length)
 {
     // Put random value (interval [-5, 5])
     for (int i = 0; i < length; i++)
         array[i] = 10.0f * ((float)rand() / RAND_MAX - 0.5f);
 }
 
-void testSum(float *array, int length)
+void testSum(int *array, int length)
 {
     // ********************* Test sum begin ********************* //
     double start, stop;
     double elapsedTimeSequential, elapsedTimeParallel, elapsedTimeParallelDynamic, elapsedTimeParallelAtomic, elapsedTimeParallelCritical;
 
-    float sum;
+    int sum;
 
     // Sequential version
     start = omp_get_wtime();
@@ -102,7 +102,7 @@ void testSum(float *array, int length)
     start = omp_get_wtime();
 
     sum = 0.0f;
-#   pragma omp parallel for reduction(+:sum) schedule(static, 128)
+#   pragma omp parallel for reduction(+:sum) schedule(static, 256)
     for (int i = 0; i < length; i++)
         sum += array[i];
 
@@ -134,10 +134,6 @@ void testSum(float *array, int length)
 
     stop = omp_get_wtime();
     elapsedTimeParallelCritical = stop - start;
-
-
-    // Renew values
-    fillArrayWithRandomValues(array, length);
 
 
     // Print results

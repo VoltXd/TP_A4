@@ -244,7 +244,7 @@ void compute_eigenvalues(float *hgrad, float *vgrad, int image_height, int image
 				{
 					offseti = -1 * w + k;
 					offsetj = -1 * w + m;
-					if (i + offseti >= 0 && i + offseti < image_height && j + offsetj >= 0 && j + offsetj < image_width)
+					if (__builtin_expect(i + offseti >= 0 && i + offseti < image_height && j + offsetj >= 0 && j + offsetj < image_width, 1))
 					{
 						ixx_sum += hgrad[(i + offseti) * image_width + (j + offsetj)] * hgrad[(i + offseti) * image_width + (j + offsetj)];
 						iyy_sum += vgrad[(i + offseti) * image_width + (j + offsetj)] * vgrad[(i + offseti) * image_width + (j + offsetj)];
@@ -262,8 +262,8 @@ void compute_eigenvalues(float *hgrad, float *vgrad, int image_height, int image
 
 float min_eigenvalue(float a, float b, float c, float d)
 {
-	float ev_one = (a + d) / 2 + pow(((a + d) * (a + d)) / 4 - (a * d - b * c), 0.5);
-	float ev_two = (a + d) / 2 - pow(((a + d) * (a + d)) / 4 - (a * d - b * c), 0.5);
+	float ev_one = (a + d) / 2 + sqrtf(((a + d) * (a + d)) / 4 - (a * d - b * c));
+	float ev_two = (a + d) / 2 - sqrtf(((a + d) * (a + d)) / 4 - (a * d - b * c));
 	if (ev_one >= ev_two)
 	{
 		return ev_two;
@@ -294,7 +294,7 @@ void convolve(float *kernel, float *image, float *resultimage, int image_width, 
 				{
 					offseti = -1 * (kernel_height / 2) + k;
 					offsetj = -1 * (kernel_width / 2) + m;
-					if (i + offseti >= 0 && i + offseti < image_height && j + offsetj >= 0 && j + offsetj < image_width)
+					if (__builtin_expect(i + offseti >= 0 && i + offseti < image_height && j + offsetj >= 0 && j + offsetj < image_width, 1)) 
 					{
 						sum += (float)(image[(i + offseti) * image_width + (j + offsetj)]) * kernel[k * kernel_width + m];
 					}

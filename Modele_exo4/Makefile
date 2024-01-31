@@ -13,8 +13,12 @@ debug: $(TARGET)
 release: CCFLAGS += -O2
 release: $(TARGET)
 
-benchmode: CCFLAGS += -O2 -DBENCHMARKMODE
+benchmode: CCFLAGS += -O2 -g
 benchmode: $(TARGET)
+
+asm: CCFLAGS += -O2 -fverbose-asm
+asm:
+	$(CC) -S $(CCFLAGS) $(SOURCES)
 
 $(TARGET): $(OBJECTS) $(CXXOBJECTS)
 	$(CC) -o $@ $^ $(LDFLAGS)
@@ -26,4 +30,4 @@ $(TARGET): $(OBJECTS) $(CXXOBJECTS)
 	$(CC) $(CCFLAGS) -c $<
 
 clean:
-	rm -f *.pgm *.o $(TARGET)
+	rm -f *.pgm *.o *.s $(TARGET)

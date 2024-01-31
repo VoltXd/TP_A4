@@ -28,43 +28,55 @@ with open('result.csv') as csv_file:
         if int(rows[i][1]) - 2 == 14:
             j += 1
 
+plt.figure(figsize=(12,6))
 plt.plot(sizes, tsum_seq[0], marker="*", label=f"seq")
 for i in range(15):
-    if i + 2 <= 8:
+    if i + 2 <= 4:
         plt.plot(sizes, tsum_para[i], marker="o", label=f"para:{i+2}")
     else:
         plt.plot(sizes, tsum_para[i], linestyle=":", marker="+", label=f"para:{i+2}")
 plt.legend()
 plt.xscale("log")
 plt.yscale("log")
+plt.xlabel("Size")
+plt.ylabel("Duration [ms]")
 plt.show()
+plt.figure(figsize=(12,6))
 plt.plot(sizes, tsum_seq[0], marker="*", label=f"seq")
 for i in range(15):
-    if i + 2 <= 8:
+    if i + 2 <= 4:
         plt.plot(sizes, tsum_para_dyn[i], marker="o", label=f"para_dyn:{i+2}")
     else:
         plt.plot(sizes, tsum_para_dyn[i], linestyle=":", marker="+", label=f"para_dyn:{i+2}")
 plt.legend()
 plt.xscale("log")
 plt.yscale("log")
+plt.xlabel("Size")
+plt.ylabel("Duration [ms]")
 plt.show()
+plt.figure(figsize=(12,6))
 plt.plot(sizes, tsum_seq[0], marker="*", label=f"seq")
 for i in range(15):
-    if i + 2 <= 8:
+    if i + 2 <= 4:
         plt.plot(sizes, tsum_para_ato[i], marker="o", label=f"para_ato:{i+2}")
     else:
         plt.plot(sizes, tsum_para_ato[i], linestyle=":", marker="+", label=f"para_ato:{i+2}")
 plt.legend()
 plt.xscale("log")
 plt.yscale("log")
+plt.xlabel("Size")
+plt.ylabel("Duration [ms]")
 plt.show()
+plt.figure(figsize=(12,6))
 plt.plot(sizes, tsum_seq[0], marker="*", label=f"seq")
 for i in range(15):
-    if i + 2 <= 8:
+    if i + 2 <= 4:
         plt.plot(sizes, tsum_para_crit[i], marker="o", label=f"para_crit:{i+2}")
     else:
         plt.plot(sizes, tsum_para_crit[i], linestyle=":", marker="+", label=f"para_crit:{i+2}")
 plt.legend()
 plt.xscale("log")
 plt.yscale("log")
+plt.xlabel("Size")
+plt.ylabel("Duration [ms]")
 plt.show()

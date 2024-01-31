@@ -7,7 +7,7 @@
 #define LENGTH_INDEX 1
 #define NUM_THREAD_INDEX 2
 
-#define F_1(x) (2.17f * x)
+#define F_1(x) (2.17f * (x))
 #define F_2(x) (2.17f * logf(x) * cosf(x))
 
 int getArgumentValueInt(int index, char* argString);
@@ -58,7 +58,7 @@ int getArgumentValueInt(int index, char* argString)
     if (value <= 0)
     {
         printf("ERROR:\tArguments must be non-zero positive integers\n");
-        printf("\t\tBad argument index: %d\n", index);
+        printf("\t\tBad argument index: %d,\tString: %s,\tValue: %d\n", index, argString, value);
         exit(EXIT_FAILURE);
     }
 

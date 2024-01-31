@@ -13,7 +13,7 @@ debug: $(TARGET)
 release: CCFLAGS += -O2
 release: $(TARGET)
 
-benchmode: CCFLAGS += -O2 -DBENCHMARKMODE
+benchmode: CCFLAGS += -O2 -g
 benchmode: $(TARGET)
 
 $(TARGET): $(OBJECTS) $(CXXOBJECTS)
